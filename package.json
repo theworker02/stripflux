@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stripflux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip CSV/TSV flux tables for quick inspection and cleanup.",
+  "bin": {
+    "stripflux": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stripflux.git"
+  },
+  "homepage": "https://theworker02.github.io/stripflux/",
+  "keywords": [
+    "strip",
+    "flux",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
